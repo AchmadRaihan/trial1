@@ -1,9 +1,7 @@
 import streamlit as st
 import pandas as pd
 from prophet import Prophet
-import datetime
 import altair as alt
-import plotly.express as px
 
 st.write("""
 # Simple Water Level Prediction App
